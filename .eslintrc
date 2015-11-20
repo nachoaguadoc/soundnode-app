@@ -6,13 +6,14 @@
     "comma-dangle": 1,
     "comma-spacing": [1, {"before": false, "after": true}],
     "comma-style": [1, "last"],
-    "curly": [2, "multi"],
-    "eol-last": 1,
+    "curly": [2],
+    "eol-last": 0,
     "generator-star-spacing": [1, "after"],
     "guard-for-in": 1,
     "indent": [1, 2],
+    "no-console": 0,
     "no-eq-null": 2,
-    "no-extra-parens": 1,
+    "no-extra-parens": 0,
     "no-lonely-if": 1,
     "no-mixed-spaces-and-tabs": [1, "smart-tabs"],
     "no-spaced-func": 1,
@@ -25,7 +26,6 @@
     "quotes": [0, "double", "avoid-escape"],
     "radix": 1,
     "semi-spacing": [1, {"before": false, "after": true}],
-    "strict": [1],
     "vars-on-top": 1,
     "wrap-iife": 1,
     "react/display-name": 0,
@@ -70,5 +70,4 @@
     "react"
   ]
 }
-
 
