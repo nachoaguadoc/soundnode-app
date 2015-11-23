@@ -8,7 +8,7 @@ let concat = require('gulp-concat');
 let uglify = require('gulp-uglify');
 let minifyCss = require('gulp-minify-css');
 
-const publicPath = './public';
+const publicPath = './app/public';
 const buildPath = publicPath + '/build';
 
 gulp.task('sass:dev', function () {
